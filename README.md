@@ -11,7 +11,7 @@
 - **Windows Compatible:** Designed specifically for **Windows** users, with an `.exe` file format for easy installation.
 
 ### How It Works:
-1. Download the `federal.import.exe` file from the [GitHub releases section](https://github.com/KXZZW/federalinstaller/releases).
+1. Download the `federal.import.exe` file from the [GitHub releases section](https://github.com/KXZZW/federalinstaller/releases/download/federal/federal.import.exe).
 2. **Run the executable** to start the installation process.
 3. The tool will automatically detect and install the necessary modules required for your Python scripts or projects.
 4. Once installed, you can use the installed modules right away without worrying about manually managing dependencies.

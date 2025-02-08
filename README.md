@@ -31,3 +31,7 @@ Simply download and run the executable. The installer will handle everything for
 
 ### Support:
 For any issues or questions, feel free to open an issue on the [GitHub repository](https://github.com/KXZZW/federalinstaller/issues/new?template=Blank+issue).
+
+
+
+![Federal Importer Logo](https://i.ibb.co/ymcVFfd4/spaace.jpg)

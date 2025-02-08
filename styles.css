@@ -1,0 +1,117 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background-color: #2d3b48;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Section Styling */
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+}
+
+/* Features List */
+.features ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.features li {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+/* Modules List */
+.module-list ul {
+    list-style-type: none;
+    margin-left: 20px;
+    font-size: 1.1em;
+}
+
+.module-list li {
+    margin-bottom: 6px;
+}
+
+/* How to Use */
+.usage ol {
+    list-style-type: decimal;
+    margin-left: 40px;
+    font-size: 1.1em;
+}
+
+.usage li {
+    margin-bottom: 12px;
+}
+
+/* Download Button */
+.download-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.download-button:hover {
+    background-color: #218838;
+}
+
+/* GitHub Link */
+.github-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.2em;
+}

@@ -3,98 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="federal is a program that install all required modules for your py script">
-    <title>Python Module Installer</title>
+    <meta name="description" content="Federal Importer - Automatically install missing Python modules.">
+    <title>Federal Importer v1.0</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="title">federal importer v1.0</h1>
+            <h1 class="title">Federal Importer v1.0</h1>
             <p class="subtitle">Automatically install missing Python modules from your script.</p>
         </div>
     </header>
 
-    <section class="intro">
+    <section class="intro animate">
         <div class="container">
             <h2 class="section-title">Overview</h2>
-            <p class="section-text">This program helps you automatically detect and install missing dependencies from your Python script. It scans for import statements, extracts the necessary modules, and installs them for you.</p>
+            <p class="section-text">Detect and install missing dependencies from your Python script effortlessly.</p>
         </div>
     </section>
 
-    <section class="features">
+    <section class="features animate">
         <div class="container">
             <h2 class="section-title">Features</h2>
             <div class="feature-list">
-                <div class="feature">
-                    <span class="feature-icon">🔍</span>
-                    <p>Auto scan Python scripts for `import` statements</p>
-                </div>
-                <div class="feature">
-                    <span class="feature-icon">⚡</span>
-                    <p>Installs missing modules using `pip`</p>
-                </div>
-                <div class="feature">
-                    <span class="feature-icon">📁</span>
-                    <p>Supports drag-and-drop and file path input</p>
-                </div>
-                <div class="feature">
-                    <span class="feature-icon">✅</span>
-                    <p>Skips built-in Python modules</p>
-                </div>
-                <div class="feature">
-                    <span class="feature-icon">🚀</span>
-                    <p>Fast and efficient!</p>
-                </div>
+                <div class="feature"><span class="feature-icon">🔍</span><p>Auto scan Python scripts</p></div>
+                <div class="feature"><span class="feature-icon">⚡</span><p>Installs missing modules</p></div>
+                <div class="feature"><span class="feature-icon">📁</span><p>Drag-and-drop support</p></div>
+                <div class="feature"><span class="feature-icon">✅</span><p>Skips built-in modules</p></div>
+                <div class="feature"><span class="feature-icon">🚀</span><p>Fast and efficient!</p></div>
             </div>
         </div>
     </section>
 
-    <section class="modules">
+    <section class="download animate">
         <div class="container">
-            <h2 class="section-title">2000+ Supported Modules</h2>
-            <p class="section-text">The script supports over 2000 popular Python modules, including:</p>
-            <div class="module-list">
-                <ul>
-                    <li>numpy</li>
-                    <li>pandas</li>
-                    <li>matplotlib</li>
-                    <li>scipy</li>
-                    <li>requests</li>
-                    <li>flask</li>
-                    <li>tensorflow</li>
-                    <li>beautifulsoup4</li>
-                    <li>sqlalchemy</li>
-                    <li>pytorch</li>
-                    <li>pytest</li>
-                    <li>django</li>
-                    <li>seaborn</li>
-                    <li>scikit-learn</li>
-                </ul>
-            </div>
+            <h2 class="section-title">Download Now</h2>
+            <a href="https://github.com/KXZZW/federalinstaller/releases/download/federal/federal.import.exe" class="download-button">Download</a>
         </div>
     </section>
 
-    <section class="usage">
-        <div class="container">
-            <h2 class="section-title">How to Use</h2>
-            <ol class="usage-steps">
-                <li>download the file.</li>
-                <li>Provide your Python script's file path when prompted (or drag and drop the file).</li>
-                <li>The script will automatically detect and install any missing modules.</li>
-            </ol>
-        </div>
-    </section>
+    <img src="https://i.ibb.co/HTqRzCHS/space.png" alt="Space" class="floating-image">
 
-    <section class="download">
-        <div class="container">
-            <h2 class="section-title">Download the File</h2>
-            <p class="section-text">You can download the latest version of the Python Module Installer from the link below:</p>
-            <a href="https://github.com/KXZZW/federalinstaller/releases/download/federal/federal.import.exe" target="_blank" class="download-button">Download Now</a>
-        </div>
-    </section>
- <img src="https://i.ibb.co/HTqRzCHS/space.png" alt="Flowers in Chania" width="850" height="345">
-    <script src="scripts.js"></script>
+    <script>
+        gsap.from('.animate', { opacity: 0, y: 50, duration: 1, stagger: 0.3 });
+        gsap.to('.floating-image', { y: 10, repeat: -1, yoyo: true, duration: 2, ease: 'power1.inOut' });
+    </script>
 </body>
 </html>
